@@ -9,7 +9,7 @@ function Project() {
     return (
         <>
         <div className="projects">
-            <Seperator />
+           
             <label className="section-title">Projects</label>
             
             <div>

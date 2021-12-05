@@ -3,10 +3,10 @@ import Seperator from '../../Body/Seperator'
 import './contact.css'
 import Contact from '../../Body/contact/Contact'
 
-export default function Contacts() {
+export default function Contacts({data}) {
     return (
         <div className="contact">
-            <Seperator />
+           
             <label className="section-title">Contact</label>
             <div className="contact-container">
                 <div className="contact-left">
@@ -15,9 +15,9 @@ export default function Contacts() {
                 </div>
                 <div className="download">
                                        
-                    <a download href={require('../../../asset/Revathi_Resume..pdf').default} >
+                    <a href="https://github.com/Revathiv47/resume/blob/main/Revathi_Resume..pdf" target="_blank">
                     <i class="fi-rr-cloud-download download-icon" />
-                    Download Resume
+                    Resume
                     </a>
                 </div>
             </div>
