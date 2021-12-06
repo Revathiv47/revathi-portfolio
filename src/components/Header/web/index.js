@@ -16,7 +16,7 @@ function Web() {
             </div>
             
             <div className="web-option">
-                <a href="#contacts">
+                <a href="#contact">
                 <i class="fi fi-rr-user option-icon"></i> Contact
                 </a>
             </div>

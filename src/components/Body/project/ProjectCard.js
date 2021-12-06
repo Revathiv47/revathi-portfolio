@@ -26,18 +26,20 @@ function ProjectCard({project}) {
           )}
      </div>   
      <div className="project-about">
-     <p >{project.about}</p>
      <div className="project-tags">
        {project.tags.map((tag)=> {
           return <label className="tags">{tag}</label>
        })}
      </div>
+     <p >{project.about}</p>
+     
      </div>
     
    
            <span class="iconify" data-icon="logos:netlify"></span>
       </div>
-      <img  src={project.image} className="project-photo" />  
+      <img  src={project.image} className="project-photo" /> 
+       
       </div >
     
   );

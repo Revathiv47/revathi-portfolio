@@ -9,6 +9,9 @@
  .project-photo {
      width:40%;
  }
+
+ 
+
  .project-info {
      margin-right: 24px;
  }
@@ -27,8 +30,9 @@
      padding: 4px 8px;
      background-color: rgba(137, 43, 226, 0.425);
      border-radius:4px;
-     margin-bottom:4px;
+     margin-bottom:24px;
      margin-right: 15px;
+   
  }
 
  
@@ -88,5 +92,9 @@
 }
 
 .project-photo:hover  {
-    transform: scale(2);
+    transform: scale(1.2);
+}
+
+.project-img{
+    flex-direction: row;
 }

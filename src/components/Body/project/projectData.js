@@ -1,12 +1,12 @@
 export const ProjectData=[
     {
         id:1,
-        title:"CRUD App",
-        about: "A CRUD app is application that consists of four basic operations Create, Read, Update, Delete.",
-        demo:'https://reactcruduser.netlify.app/',
-        github:'https://github.com/Revathiv47/crud_react',
+        title:"Todo List",
+        about: "A TODO app is application that consists of four basic operations Create, Read, Update, Delete. It is smart task list for everyday use.",
+        demo:'https://todo-list-app-react-js.netlify.app/',
+        github:'https://github.com/Revathiv47/todo-list',
         tags: ["HTML", "CSS", "React JS"],
-        image:require('../../../asset/crudapp-image.PNG').default
+        image:require('../../../asset/todo.PNG').default
     },
     {
         id:2,
@@ -19,11 +19,20 @@ export const ProjectData=[
     },
     {
         id:3,
-        title:"E-Buy",
-        about: "E-Buy is a eCommerce website that allows the user to view items, add to cart, remove from cart ",
-        demo:'https://react-shoppingcard.netlify.app/',
-        github:'https://github.com/Revathiv47/React_ShoppingCard',
+        title:"Weather App",
+        about: "Weatehr app is used to check the weather around you and all over the world at a glance using API. You won’t even have to look out the window as the app will bring current weather just inside your house!",
+        demo:'https://app-weather-reactjs.netlify.app/',
+        github:'https://github.com/Revathiv47/weather',
         tags: ["HTML", "CSS", "React JS"],
-        image:require('../../../asset/shopping-card.PNG').default
+        image:require('../../../asset/weather.PNG').default
+    },
+    {
+        id:3,
+        title:"Calculator",
+        about: "Calculator provides simple mathematical functions in a designed app. Perform basic calculations such as addition, subtraction, multiplication and division. ",
+        demo:'https://calculator-app-react-js.netlify.app/',
+        github:'https://github.com/Revathiv47/calculator-react-js',
+        tags: ["HTML", "CSS", "React JS"],
+        image:require('../../../asset/calc.PNG').default
     }
 ]
