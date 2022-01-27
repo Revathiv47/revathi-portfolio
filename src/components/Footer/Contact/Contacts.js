@@ -15,7 +15,7 @@ export default function Contacts({data}) {
                 </div>
                 <div className="download">
                                        
-                    <a href="https://github.com/Revathiv47/resume/blob/main/Revathi_Resume..pdf" target="_blank">
+                    <a href="https://drive.google.com/file/d/1B4vSA0iuLb4MhabFo9q_Wq2xRxNYBLSz/view" target="_blank">
                     <i class="fi-rr-cloud-download download-icon" />
                     Resume
                     </a>
