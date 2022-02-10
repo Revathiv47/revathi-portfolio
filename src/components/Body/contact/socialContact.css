@@ -46,13 +46,13 @@
 }
 .download{
     background-color: rgba(137, 43, 226, 0.425);
-    padding-top: 3px;
+    padding-top: 2px;
     font-size:20px;
     display: flex;
     justify-content:center;
     align-items:center;
     border-radius: 10px;
-    max-height: 50%;
+    max-height: 40%;
 }
 .download-icon{
     padding-right:20px;
