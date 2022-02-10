@@ -19,12 +19,12 @@ export const ProjectData=[
     },
     {
         id:3,
-        title:"Authentication using JWT",
-        about: "JWTs are used as a secure way to authenticate users and share information. Typically, a private key, or secret, is used by the issuer to sign the JWT. The receiver of the JWT will verify the signature to ensure that the token hasn't been altered after it was signed by the issuer.",
+        title:"TODO App",
+        about: "ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do. It is helpful in planning our daily schedules.",
         demo:'https://auth-jsonwebtoken.netlify.app',
         github:'https://github.com/Revathiv47/auth-jwt-frontend',
         tags: ["HTML", "CSS", "React JS", "MongoDB", "Node JS"],
-        image:require('../../../asset/jwt.PNG').default
+        image:require('../../../asset/todo.PNG').default
     },
     
     {

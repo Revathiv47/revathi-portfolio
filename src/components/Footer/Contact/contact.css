@@ -1,6 +1,6 @@
 .contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: space-around;
     flex:1;
 }
 .section-title {
@@ -19,19 +19,8 @@
     font-size:20px;
     text-align: center;
 }
-.download{
-    background-color: rgba(137, 43, 226, 0.425);
-    padding: 8px 16px;
-    font-size:24px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    border-radius: 4px;
-}
-.download a{
-    text-decoration: none;
-    color:black;
-}
+
+
 @media only screen and (max-width: 720px){
 .contact-container{
     flex-direction: column;
