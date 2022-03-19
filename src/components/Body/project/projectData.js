@@ -1,12 +1,12 @@
 export const ProjectData=[
     {
         id:1,
-        title:"Weather App",
-        about: "Weatehr app is used to check the weather around you and all over the world at a glance using API. You won’t even have to look out the window as the app will bring current weather just inside your house!",
-        demo:'https://app-weather-reactjs.netlify.app/',
-        github:'https://github.com/Revathiv47/weather',
+        title:"E - Buy | Watch shopping App",
+        about: "E-Buy is a eCommerce website that allows the user to create account, view items, add to cart, remove from cart.",
+        demo:'https://ebuy-watches.netlify.app',
+        github:'https://github.com/Revathiv47/eCommerce',
         tags: ["HTML", "CSS", "React JS"],
-        image:require('../../../asset/weather.PNG').default
+        image:require('../../../asset/watch.PNG').default
     },
     {
         id:2,

@@ -19,7 +19,7 @@ function Contact() {
       </div>
       <div className="download">
         <a
-          href="https://drive.google.com/file/d/1B4vSA0iuLb4MhabFo9q_Wq2xRxNYBLSz/view"
+          href="https://drive.google.com/file/d/1mXGJAiJu3j9fj5FPZyjqDvD7skj8yp4z/view?usp=sharing"
           target="_blank"
         >
           <i class="fi-rr-cloud-download download-icon" />
